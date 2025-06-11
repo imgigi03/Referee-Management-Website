@@ -1,0 +1,199 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#tables {
+    
+    margin-top: 40px; 
+    margin-bottom: 40px;    
+    gap: 10px;
+    width: 100%;
+    height: 700px;
+    
+}
+
+
+
+table {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: left;
+}
+
+th {
+    background-color: rgba(241, 196, 15, 0.8);
+    color: black;
+    font-weight: bold;
+}
+
+td {
+    font-size: 16px;
+}
+
+#tableTeam2{
+    margin-top: 50px;
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.res12{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.res1, .res2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+   
+    margin-right: 3%;
+   
+    margin-bottom: 50%;
+   
+    font-size: 24px; 
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    height: 100%;
+}
+
+.all {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    height: 700px;
+    
+    
+    
+}
+
+
+
+#team1Name, #team2Name {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#score0, #score1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: yellow; 
+}
+
+#ammoniti, #espulsioni {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px; 
+}
+
+.num_espulsi {
+    font-size: 20px;
+    color: #c0392b; 
+}
+
+.num_ammoniti{
+    font-size: 20px;
+    color: yellow;
+}
+
+#results h2 {
+    margin-bottom: 10px; 
+}
+
+.count {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#bottone input[type="submit"] {
+    margin-top: 15%;
+    padding: 10px 20px;
+    background-color: #f39c12; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#bottone input[type="submit"]:hover {
+    background-color: #e67e22; 
+}
+
+#bottone, #numFalli {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#formTeam1 {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#numFalli {
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+}
+
+
+
+
